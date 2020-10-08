@@ -19,5 +19,6 @@
     "strictPropertyInitialization": false,
     "typeRoots": ["./node_modules/@types"]
   },
+  "include": ["src", "_tests_"],
   "exclude": ["cdk.out"]
 }

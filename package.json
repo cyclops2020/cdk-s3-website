@@ -1,9 +1,9 @@
 {
-  "name": "cdk-s3-website",
+  "name": "@blndspt/cdk-s3-website",
   "version": "0.1.0",
-  "bin": {
-    "cdk-s3-website": "bin/cdk-s3-website.js"
-  },
+  "description": "CDK S3 Website Bucket",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
@@ -24,5 +24,15 @@
     "@aws-cdk/aws-s3": "^1.67.0",
     "@aws-cdk/core": "1.67.0",
     "source-map-support": "^0.5.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyclops2020/cdk-s3-website.git"
+  },
+  "author": "Scott Tate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyclops2020/cdk-s3-website/issues"
+  },
+  "homepage": "https://github.com/cyclops2020/cdk-s3-website#readme"
 }
